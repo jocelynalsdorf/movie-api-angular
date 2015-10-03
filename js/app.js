@@ -26,23 +26,6 @@ app.controller("movieCtrl", function($scope, $http){
   }
 
 });
-// app.controller("movieCtrl", function($scope, $http){
-//    $scope.movie = movie;
-//    $scope.getMovie = function(){
-//    $http.get("www.omdbapi.com?t=" + $scope.movie.title)
-//    }
-
-// });
 
 
-
-
-
-// app.directive("Movie", function($scope, $http){
-//   return {
-//     templateUrl: "index.html",
-//     controller: "movieCtrl"
-//   }
- 
-// });
 

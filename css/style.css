@@ -6,7 +6,9 @@ body.full-background {
 .txt-center {
   text-align: center;
 }
-
+img {
+  width:250px;
+}
 #search-input-box {
   position: absolute;
   top:50%;
