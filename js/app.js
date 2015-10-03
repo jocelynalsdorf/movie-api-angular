@@ -13,6 +13,9 @@ app.directive("movieSearch", function(){
 app.controller("movieCtrl", function($scope, $http){
   // $scope.movie = movie;
   $scope.showMovieDetails = false;
+  $scope.resetSearch = function() {
+    $scope.showMovieDetails = false;
+  }
   $scope.loadMovie = function(){
     
     $http.get("http://omdbapi.com?t=" + encodeURIComponent($scope.movieQuery))
