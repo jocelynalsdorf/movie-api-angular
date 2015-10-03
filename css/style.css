@@ -1,5 +1,5 @@
-body.full-background {
-  background: url(#);
+body.full-image {
+  background: url(../imgs/dvd-wallpaper.jpg) repeat-y;
   background-size: auto;
 }
 
