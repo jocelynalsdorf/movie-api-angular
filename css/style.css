@@ -1,0 +1,46 @@
+body.full-background {
+  background: url(#);
+  background-size: auto;
+}
+
+.txt-center {
+  text-align: center;
+}
+
+#search-input-box {
+  position: absolute;
+  top:50%;
+  left:50%;
+  margin-left: -300px;
+  margin-right: -100px;
+  width:600px;
+  height:200px;
+  padding:20px;
+  background-color: #ebebeb;
+}
+
+#movie-search-button-disabled {
+  display:none;
+}
+
+.movie-card {
+  width:800px;
+  padding:20px;
+  background-color:#EBEBEB;
+  margin:0 auto 0 auto;
+}
+
+.margin-top-20 {
+  margin-top:20px;
+}
+
+.border-radius {
+  border-radius:5px;
+}
+.txt-right {
+  text-align: right;
+}
+.movie-poster {
+  max-height:350px;
+}
+
